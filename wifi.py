@@ -4,8 +4,8 @@ import network
 import socket
 
 #wifi
-SSID = "ALHN-2061"
-PASSWORD = "92E5XNmQQP"
+SSID = "Nombre de tu red"
+PASSWORD = "Contraseña de tu red"
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
